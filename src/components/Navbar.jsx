@@ -33,7 +33,7 @@ function Navbar() {
         <div className="flex justify-between items-center">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
-              <span className="text-2xl font-bold text-gray-800">FVKFM (Ny Fiangonan' ny Vondrona Kristianin' ny Fanahy Masina)</span>
+              <span className="text-2xl font-bold text-gray-800">FVKFM</span>
             </Link>
           </div>
           
