@@ -10,7 +10,7 @@ function Contact() {
   return (
     <div className="min-h-screen pt-16 bg-white">
       {/* Page Header */}
-      <div className="bg-amber-500 py-16">
+      <div className="bg-primary py-16">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold text-white text-center">Contactez-nous</h1>
           <p className="text-xl text-white text-center mt-4 max-w-3xl mx-auto">
@@ -34,7 +34,7 @@ function Contact() {
               
               <div className="space-y-6">
                 <div>
-                  <h3 className="text-xl font-semibold text-amber-600 mb-2">Adresse</h3>
+                  <h3 className="text-xl font-semibold text-primary mb-2">Adresse</h3>
                   <address className="not-italic text-gray-600">
                     <p className="flex items-start">
                       <svg className="w-5 h-5 text-gray-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
@@ -50,7 +50,7 @@ function Contact() {
                 </div>
                 
                 <div>
-                  <h3 className="text-xl font-semibold text-amber-600 mb-2">Service Times</h3>
+                  <h3 className="text-xl font-semibold text-primary mb-2">Service Times</h3>
                   <div className="space-y-2 text-gray-600">
                     <p className="flex items-start">
                       <svg className="w-5 h-5 text-gray-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
@@ -80,7 +80,7 @@ function Contact() {
                 </div>
                 
                 <div>
-                  <h3 className="text-xl font-semibold text-amber-600 mb-2">Informations de Contact</h3>
+                  <h3 className="text-xl font-semibold text-primary mb-2">Informations de Contact</h3>
                   <div className="space-y-2 text-gray-600">
                     <p className="flex items-center">
                       <svg className="w-5 h-5 text-gray-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
@@ -99,7 +99,7 @@ function Contact() {
                 </div>
                 
                 <div>
-                  <h3 className="text-xl font-semibold text-amber-600 mb-2">Heures d'Ouverture</h3>
+                  <h3 className="text-xl font-semibold text-primary mb-2">Heures d'Ouverture</h3>
                   <div className="space-y-2 text-gray-600">
                     <p className="flex items-start">
                       <svg className="w-5 h-5 text-gray-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
@@ -114,7 +114,7 @@ function Contact() {
                 </div>
                 
                 <div className="pt-4">
-                  <h3 className="text-xl font-semibold text-amber-600 mb-3">Connectez-vous avec Nous</h3>
+                  <h3 className="text-xl font-semibold text-primary mb-3">Connectez-vous avec Nous</h3>
                   <div className="flex space-x-4">
                     <a href="https://facebook.com" className="bg-blue-600 text-white p-2 rounded-full hover:bg-blue-700 transition-colors">
                       <span className="sr-only">Facebook</span>
@@ -155,7 +155,7 @@ function Contact() {
             <h2 className="text-3xl font-bold mb-6 text-center">Trouvez-nous</h2>
             <div className="h-96 bg-gray-300 rounded-lg overflow-hidden">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.3063874233135!2d-74.00597384822144!3d40.71277827932946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQyJzQ2LjAiTiA3NMKwMDAnMjEuNiJX!5e0!3m2!1sen!2sus!4v1635787913159!5m2!1sen!2sus" 
+                src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d15101.008348662837!2d47.50153541447755!3d-18.875894635292624!3m2!1i1024!2i768!4f13.1!2m1!1sfvkfm%20madagascar!5e0!3m2!1sen!2smg!4v1748803798543!5m2!1sen!2smg" 
                 width="100%" 
                 height="100%" 
                 style={{ border: 0 }} 
@@ -169,7 +169,7 @@ function Contact() {
                 href="https://goo.gl/maps/your-church-location" 
                 target="_blank" 
                 rel="noreferrer"
-                className="text-amber-600 hover:text-amber-700 font-medium inline-flex items-center"
+                className="text-primary hover:text-secondary font-medium inline-flex items-center"
               >
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M12 1.586l-4 4v12.828l4-4V1.586zM3.707 3.293A1 1 0 002 4v10a1 1 0 00.293.707L6 18.414V5.586L3.707 3.293zM17.707 5.293L14 1.586v12.828l2.293 2.293A1 1 0 0018 16V6a1 1 0 00-.293-.707z" clipRule="evenodd" />
@@ -188,7 +188,7 @@ function Contact() {
           
           <div className="space-y-6">
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold text-amber-600 mb-2">À quoi s'attendre lors d'une visite ?</h3>
+              <h3 className="text-xl font-semibold text-primary mb-2">À quoi s'attendre lors d'une visite ?</h3>
               <p className="text-gray-700">
                 Vous pouvez vous attendre à un accueil chaleureux, une musique édifiante et un message pertinent de la Bible. 
                 Nos services durent généralement environ 90 minutes, et une tenue décontractée est tout à fait appropriée.
@@ -196,7 +196,7 @@ function Contact() {
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold text-amber-600 mb-2">Y a-t-il une garderie disponible ?</h3>
+              <h3 className="text-xl font-semibold text-primary mb-2">Y a-t-il une garderie disponible ?</h3>
               <p className="text-gray-700">
                 Oui ! Nous avons des programmes adaptés à l'âge pour les enfants de la naissance jusqu'à la 5ème année pendant 
                 tous nos services. Nos bénévoles d'accueil vous aideront à enregistrer vos enfants.
@@ -204,7 +204,7 @@ function Contact() {
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold text-amber-600 mb-2">Comment puis-je m'impliquer ?</h3>
+              <h3 className="text-xl font-semibold text-primary mb-2">Comment puis-je m'impliquer ?</h3>
               <p className="text-gray-700">
                 Nous avons de nombreuses opportunités de servir et de se connecter, de rejoindre un petit groupe à faire du bénévolat 
                 dans divers ministères. Contactez-nous ou parlez à un membre de l'équipe d'accueil le dimanche pour en savoir plus.
@@ -212,7 +212,7 @@ function Contact() {
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold text-amber-600 mb-2">Comment devenir membre ?</h3>
+              <h3 className="text-xl font-semibold text-primary mb-2">Comment devenir membre ?</h3>
               <p className="text-gray-700">
                 Nous proposons des cours de formation à l'adhésion plusieurs fois par an. Ces cours fournissent des informations 
                 sur les croyances, les valeurs et la vision de notre église, et sur la façon dont vous pouvez rejoindre notre famille d'église.

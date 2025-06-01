@@ -12,7 +12,7 @@ function SermonCard({ sermon }) {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-4">
           <div className="text-white">
-            <span className="inline-block bg-amber-500 text-white text-xs px-2 py-1 rounded mb-2">
+            <span className="inline-block bg-primary text-white text-xs px-2 py-1 rounded mb-2">
               {sermon.date}
             </span>
           </div>
@@ -32,7 +32,7 @@ function SermonCard({ sermon }) {
         <div className="flex justify-between items-center">
           <Link 
             to={`/sermons/${sermon.id}`} 
-            className="text-amber-600 hover:text-amber-700 font-medium"
+            className="text-secondary hover:text-primary font-medium"
           >
             Listen Now
           </Link>

@@ -24,7 +24,7 @@ function Navbar() {
   
   // Active link highlighting
   const isActive = (path) => {
-    return location.pathname === path ? 'text-amber-500 border-b-2 border-amber-500' : '';
+    return location.pathname === path ? 'text-primary border-b-2 border-primary' : '';
   };
   
   return (
@@ -39,11 +39,11 @@ function Navbar() {
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
-            <Link to="/" className={`transition-colors duration-300 hover:text-amber-500 ${isActive('/')}`}>Accueil</Link>
-            <Link to="/about" className={`transition-colors duration-300 hover:text-amber-500 ${isActive('/about')}`}>À propos</Link>
-            <Link to="/sermons" className={`transition-colors duration-300 hover:text-amber-500 ${isActive('/sermons')}`}>Prédications</Link>
-            <Link to="/events" className={`transition-colors duration-300 hover:text-amber-500 ${isActive('/events')}`}>Événements</Link>
-            <Link to="/contact" className={`transition-colors duration-300 hover:text-amber-500 ${isActive('/contact')}`}>Contact</Link>
+            <Link to="/" className={`transition-colors duration-300 hover:text-secondary ${isActive('/')}`}>Accueil</Link>
+            <Link to="/about" className={`transition-colors duration-300 hover:text-secondary ${isActive('/about')}`}>À propos</Link>
+            <Link to="/sermons" className={`transition-colors duration-300 hover:text-secondary ${isActive('/sermons')}`}>Prédications</Link>
+            <Link to="/events" className={`transition-colors duration-300 hover:text-secondary ${isActive('/events')}`}>Événements</Link>
+            <Link to="/contact" className={`transition-colors duration-300 hover:text-secondary ${isActive('/contact')}`}>Contact</Link>
           </div>
           
           {/* Mobile Menu Button */}
@@ -67,11 +67,11 @@ function Navbar() {
         {isOpen && (
           <div className="md:hidden mt-4 py-2 bg-white rounded-lg shadow-lg">
             <div className="flex flex-col space-y-4 px-4 py-2">
-              <Link to="/" onClick={() => setIsOpen(false)} className={`block py-2 hover:text-amber-500 ${isActive('/')}`}>Accueil</Link>
-              <Link to="/about" onClick={() => setIsOpen(false)} className={`block py-2 hover:text-amber-500 ${isActive('/about')}`}>À propos</Link>
-              <Link to="/sermons" onClick={() => setIsOpen(false)} className={`block py-2 hover:text-amber-500 ${isActive('/sermons')}`}>Prédications</Link>
-              <Link to="/events" onClick={() => setIsOpen(false)} className={`block py-2 hover:text-amber-500 ${isActive('/events')}`}>Événements</Link>
-              <Link to="/contact" onClick={() => setIsOpen(false)} className={`block py-2 hover:text-amber-500 ${isActive('/contact')}`}>Contact</Link>
+              <Link to="/" onClick={() => setIsOpen(false)} className={`block py-2 hover:text-secondary ${isActive('/')}`}>Accueil</Link>
+              <Link to="/about" onClick={() => setIsOpen(false)} className={`block py-2 hover:text-secondary ${isActive('/about')}`}>À propos</Link>
+              <Link to="/sermons" onClick={() => setIsOpen(false)} className={`block py-2 hover:text-secondary ${isActive('/sermons')}`}>Prédications</Link>
+              <Link to="/events" onClick={() => setIsOpen(false)} className={`block py-2 hover:text-secondary ${isActive('/events')}`}>Événements</Link>
+              <Link to="/contact" onClick={() => setIsOpen(false)} className={`block py-2 hover:text-secondary ${isActive('/contact')}`}>Contact</Link>
             </div>
           </div>
         )}

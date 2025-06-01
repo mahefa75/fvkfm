@@ -50,7 +50,7 @@ function Events() {
   return (
     <div className="min-h-screen pt-16 bg-white">
       {/* Page Header */}
-      <div className="bg-amber-500 py-16">
+      <div className="bg-primary py-16">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold text-white text-center">Événements & Activités</h1>
           <p className="text-xl text-white text-center mt-4 max-w-3xl mx-auto">
@@ -70,7 +70,7 @@ function Events() {
                 placeholder="Search events..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500"
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
               />
             </div>
             
@@ -80,7 +80,7 @@ function Events() {
                 onClick={() => setFilter('all')}
                 className={`px-4 py-2 rounded-lg font-medium transition-colors ${
                   filter === 'all'
-                    ? 'bg-amber-500 text-white'
+                    ? 'bg-primary text-white'
                     : 'bg-white text-gray-700 hover:bg-gray-200'
                 }`}
               >
@@ -90,7 +90,7 @@ function Events() {
                 onClick={() => setFilter('upcoming')}
                 className={`px-4 py-2 rounded-lg font-medium transition-colors ${
                   filter === 'upcoming'
-                    ? 'bg-amber-500 text-white'
+                    ? 'bg-primary text-white'
                     : 'bg-white text-gray-700 hover:bg-gray-200'
                 }`}
               >
@@ -100,7 +100,7 @@ function Events() {
                 onClick={() => setFilter('past')}
                 className={`px-4 py-2 rounded-lg font-medium transition-colors ${
                   filter === 'past'
-                    ? 'bg-amber-500 text-white'
+                    ? 'bg-primary text-white'
                     : 'bg-white text-gray-700 hover:bg-gray-200'
                 }`}
               >
@@ -140,7 +140,7 @@ function Events() {
                     setSearchTerm('');
                     setFilter('upcoming');
                   }}
-                  className="mt-4 bg-amber-500 hover:bg-amber-600 text-white py-2 px-6 rounded-lg font-medium"
+                  className="mt-4 bg-primary hover:bg-red-700 text-white py-2 px-6 rounded-lg font-medium"
                 >
                   Voir tous les événements à venir
                 </button>
@@ -179,7 +179,7 @@ function Events() {
             </a>
             <a 
               href="#" 
-              className="bg-amber-500 hover:bg-amber-600 text-white font-medium py-3 px-6 rounded-lg transition-colors flex items-center"
+              className="bg-primary hover:bg-red-700 text-white font-medium py-3 px-6 rounded-lg transition-colors flex items-center"
             >
               <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                 <path d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4z" />
@@ -195,7 +195,7 @@ function Events() {
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <div className="md:flex">
-              <div className="md:w-1/2 bg-amber-500 p-8 text-white">
+              <div className="md:w-1/2 bg-primary p-8 text-white">
                 <h2 className="text-3xl font-bold mb-4">Planning an Event?</h2>
                 <p className="mb-6">
                   Our church facility is available for weddings, baptisms, and other special events. 
@@ -235,7 +235,7 @@ function Events() {
                     <input
                       type="text"
                       placeholder="Your Name"
-                      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500"
+                      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
                       required
                     />
                   </div>
@@ -243,7 +243,7 @@ function Events() {
                     <input
                       type="email"
                       placeholder="Email Address"
-                      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500"
+                      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
                       required
                     />
                   </div>
@@ -251,14 +251,14 @@ function Events() {
                     <input
                       type="tel"
                       placeholder="Phone Number"
-                      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500"
+                      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
                     />
                   </div>
                   <div className="mb-4">
                     <input
                       type="text"
                       placeholder="Event Type"
-                      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500"
+                      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
                       required
                     />
                   </div>
@@ -266,12 +266,12 @@ function Events() {
                     <textarea
                       placeholder="Additional Details"
                       rows="3"
-                      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500"
+                      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
                     ></textarea>
                   </div>
                   <button
                     type="submit"
-                    className="bg-amber-500 hover:bg-amber-600 text-white font-medium py-2 px-6 rounded-lg transition-colors"
+                    className="bg-primary hover:bg-red-700 text-white font-medium py-2 px-6 rounded-lg transition-colors"
                   >
                     Submit Request
                   </button>

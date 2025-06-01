@@ -26,13 +26,13 @@ function HeroSection() {
         <div className="flex flex-col sm:flex-row justify-center gap-4 animate-fadeIn animation-delay-600">
           <a 
             href="#service-times" 
-            className="bg-amber-500 hover:bg-amber-600 text-white py-3 px-6 rounded-lg font-semibold transition-all transform hover:scale-105"
+            className="bg-primary hover:bg-red-700 text-white py-3 px-6 rounded-lg font-semibold transition-all transform hover:scale-105"
           >
             Horaires des cultes
           </a>
           <a 
             href="/about" 
-            className="bg-transparent border-2 border-white text-white py-3 px-6 rounded-lg font-semibold hover:bg-white hover:text-gray-900 transition-all transform hover:scale-105"
+            className="bg-transparent border-2 border-secondary text-secondary py-3 px-6 rounded-lg font-semibold hover:bg-secondary hover:text-white transition-all transform hover:scale-105"
           >
             À propos
           </a>

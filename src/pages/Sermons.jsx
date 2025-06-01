@@ -46,7 +46,7 @@ function Sermons() {
   return (
     <div className="min-h-screen pt-16 bg-white">
       {/* Page Header */}
-      <div className="bg-amber-500 py-16">
+      <div className="bg-primary py-16">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold text-white text-center">Prédications</h1>
           <p className="text-xl text-white text-center mt-4 max-w-3xl mx-auto">
@@ -66,7 +66,7 @@ function Sermons() {
                 placeholder="Rechercher des prédications..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500"
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
               />
             </div>
             
@@ -76,7 +76,7 @@ function Sermons() {
                 <select
                   value={selectedSpeaker}
                   onChange={(e) => setSelectedSpeaker(e.target.value)}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
                 >
                   {speakers.map(speaker => (
                     <option key={speaker} value={speaker}>
@@ -90,7 +90,7 @@ function Sermons() {
                 <select
                   value={selectedTopic}
                   onChange={(e) => setSelectedTopic(e.target.value)}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
                 >
                   {topics.map(topic => (
                     <option key={topic} value={topic}>
@@ -123,7 +123,7 @@ function Sermons() {
                   setSelectedSpeaker('All');
                   setSelectedTopic('All');
                 }}
-                className="mt-4 bg-amber-500 hover:bg-amber-600 text-white py-2 px-6 rounded-lg font-medium"
+                className="mt-4 bg-primary hover:bg-primary-600 text-white py-2 px-6 rounded-lg font-medium"
               >
                 Effacer les Filtres
               </button>
@@ -144,12 +144,12 @@ function Sermons() {
             <input
               type="email"
               placeholder="Votre adresse e-mail"
-              className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500 flex-grow sm:max-w-xs"
+              className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary flex-grow sm:max-w-xs"
               required
             />
             <button
               type="submit"
-              className="bg-amber-500 hover:bg-amber-600 text-white font-medium py-3 px-6 rounded-lg transition-colors"
+              className="bg-primary hover:bg-primary-600 text-white font-medium py-3 px-6 rounded-lg transition-colors"
             >
               S'abonner
             </button>

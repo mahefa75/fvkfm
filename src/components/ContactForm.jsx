@@ -90,7 +90,7 @@ function ContactForm() {
               name="name"
               value={formData.name}
               onChange={handleChange}
-              className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500"
+              className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
               required
             />
           </div>
@@ -105,7 +105,7 @@ function ContactForm() {
               name="email"
               value={formData.email}
               onChange={handleChange}
-              className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500"
+              className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
               required
             />
           </div>
@@ -120,7 +120,7 @@ function ContactForm() {
               name="phone"
               value={formData.phone}
               onChange={handleChange}
-              className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500"
+              className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
             />
           </div>
           
@@ -134,7 +134,7 @@ function ContactForm() {
               name="subject"
               value={formData.subject}
               onChange={handleChange}
-              className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500"
+              className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
             />
           </div>
           
@@ -148,7 +148,7 @@ function ContactForm() {
               value={formData.message}
               onChange={handleChange}
               rows="5"
-              className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500"
+              className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
               required
             ></textarea>
           </div>
@@ -161,7 +161,7 @@ function ContactForm() {
                 name="prayerRequest"
                 checked={formData.prayerRequest}
                 onChange={handleChange}
-                className="w-4 h-4 text-amber-600 bg-gray-100 border-gray-300 rounded focus:ring-amber-500"
+                className="w-4 h-4 text-primary bg-gray-100 border-gray-300 rounded focus:ring-primary"
               />
               <label htmlFor="prayerRequest" className="ml-2 text-sm text-gray-700">
                 This is a prayer request
@@ -172,7 +172,7 @@ function ContactForm() {
           <div className="text-center">
             <button
               type="submit"
-              className="bg-amber-500 hover:bg-amber-600 text-white font-medium py-2 px-6 rounded-lg transition-colors transform hover:scale-105"
+              className="bg-primary hover:bg-red-700 text-white font-medium py-2 px-6 rounded-lg transition-colors transform hover:scale-105"
             >
               Send Message
             </button>

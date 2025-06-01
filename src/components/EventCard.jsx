@@ -57,7 +57,7 @@ function EventCard({ event }) {
         <div className="flex justify-between items-center">
           <Link 
             to={`/events/${event.id}`} 
-            className="inline-block bg-amber-500 hover:bg-amber-600 text-white py-2 px-4 rounded-lg font-medium transition-colors"
+            className="inline-block bg-primary hover:bg-red-700 text-white py-2 px-4 rounded-lg font-medium transition-colors"
           >
             Details
           </Link>

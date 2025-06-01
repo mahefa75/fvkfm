@@ -32,7 +32,7 @@ function Home() {
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center mb-8">
             <h2 className="text-3xl md:text-4xl font-bold">Dernières prédications</h2>
-            <Link to="/sermons" className="text-amber-600 hover:text-amber-700 font-medium">
+            <Link to="/sermons" className="text-secondary hover:text-primary font-medium">
               Voir toutes les prédications
             </Link>
           </div>
@@ -53,7 +53,7 @@ function Home() {
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center mb-8">
             <h2 className="text-3xl md:text-4xl font-bold">Événements à venir</h2>
-            <Link to="/events" className="text-amber-600 hover:text-amber-700 font-medium">
+            <Link to="/events" className="text-secondary hover:text-primary font-medium">
               Voir tous les événements
             </Link>
           </div>
@@ -73,7 +73,7 @@ function Home() {
       </section>
       
       {/* Call to Action */}
-      <section className="py-16 bg-amber-500">
+      <section className="py-16 bg-primary">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Rejoignez notre communauté</h2>
           <p className="text-xl text-white mb-8 max-w-3xl mx-auto">
@@ -82,13 +82,13 @@ function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 
               to="/contact" 
-              className="bg-white hover:bg-gray-100 text-amber-600 py-3 px-6 rounded-lg font-semibold transition-all transform hover:scale-105"
+              className="bg-white hover:bg-gray-100 text-primary py-3 px-6 rounded-lg font-semibold transition-all transform hover:scale-105"
             >
               Contactez-nous
             </Link>
             <a 
               href="#service-times" 
-              className="bg-amber-600 hover:bg-amber-700 text-white py-3 px-6 rounded-lg font-semibold transition-all transform hover:scale-105"
+              className="bg-primary hover:bg-red-700 text-white py-3 px-6 rounded-lg font-semibold transition-all transform hover:scale-105"
             >
               Horaires des cultes
             </a>

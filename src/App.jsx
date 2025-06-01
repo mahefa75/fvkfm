@@ -24,9 +24,9 @@ function App() {
 
   if (isLoading) {
     return (
-      <div className="flex items-center justify-center min-h-screen bg-amber-50">
+      <div className="flex items-center justify-center min-h-screen bg-primary/5">
         <div className="text-center">
-          <div className="w-16 h-16 border-4 border-amber-500 border-t-transparent rounded-full animate-spin mx-auto"></div>
+          <div className="w-16 h-16 border-4 border-primary border-t-transparent rounded-full animate-spin mx-auto"></div>
           <h2 className="mt-4 text-2xl font-semibold text-gray-800">Loading Grace Community Church</h2>
           <p className="mt-2 text-gray-600">Preparing your spiritual journey...</p>
         </div>
