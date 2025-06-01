@@ -1,0 +1,147 @@
+// Sample sermon data for the church website
+export const sermons = [
+  {
+    id: 1,
+    title: "Trouver la paix dans les temps troublés",
+    speaker: "Pasteur Sarah Johnson",
+    date: "24 octobre 2023",
+    description: "Comment trouver la paix de Dieu même lorsque le monde autour de nous semble chaotique et incertain.",
+    imageUrl: "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+    audioUrl: "/assets/audio/sermon1.mp3",
+    duration: "38:42",
+    scripture: "Jean 16:33",
+    topic: "Paix"
+  },
+  {
+    id: 2,
+    title: "La puissance de la communauté",
+    speaker: "Pasteur David Lee",
+    date: "17 octobre 2023",
+    description: "Explorer comment une communauté chrétienne authentique peut transformer nos vies et notre foi.",
+    imageUrl: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1",
+    audioUrl: "/assets/audio/sermon2.mp3",
+    duration: "42:18",
+    scripture: "Actes 2:42-47",
+    topic: "Communauté"
+  },
+  {
+    id: 3,
+    title: "La grâce qui transforme",
+    speaker: "Pasteur Sarah Johnson",
+    date: "10 octobre 2023",
+    description: "Comprendre comment la grâce de Dieu peut transformer nos cœurs, nos pensées et nos relations.",
+    imageUrl: "https://images.unsplash.com/photo-1501785888041-af3ef285b470",
+    audioUrl: "/assets/audio/sermon3.mp3",
+    duration: "37:55",
+    scripture: "Éphésiens 2:8-10",
+    topic: "Grâce"
+  },
+  {
+    id: 4,
+    title: "Vivre avec un but",
+    speaker: "Pasteur Rachel Martinez",
+    date: "3 octobre 2023",
+    description: "Découvrir le but unique que Dieu a pour votre vie et comment le vivre chaque jour.",
+    imageUrl: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05",
+    audioUrl: "/assets/audio/sermon4.mp3",
+    duration: "40:23",
+    scripture: "Jérémie 29:11-13",
+    topic: "But"
+  },
+  {
+    id: 5,
+    title: "Le cœur de l'adoration",
+    speaker: "Pasteur Rachel Martinez",
+    date: "26 septembre 2023",
+    description: "Ce que signifie adorer Dieu de tout notre cœur, non seulement par des chants mais dans chaque domaine de la vie.",
+    imageUrl: "https://images.unsplash.com/photo-1501854140801-50d01698950b",
+    audioUrl: "/assets/audio/sermon5.mp3",
+    duration: "39:10",
+    scripture: "Jean 4:23-24",
+    topic: "Adoration"
+  },
+  {
+    id: 6,
+    title: "Une foi qui triomphe",
+    speaker: "Pasteur David Lee",
+    date: "19 septembre 2023",
+    description: "Construire une foi qui résiste aux épreuves de la vie et en ressort plus forte.",
+    imageUrl: "https://images.unsplash.com/photo-1470770841072-f978cf4d019e",
+    audioUrl: "/assets/audio/sermon6.mp3",
+    duration: "45:32",
+    scripture: "Hébreux 11:1-6",
+    topic: "Foi"
+  },
+  {
+    id: 7,
+    title: "La puissance de la prière",
+    speaker: "Pasteur Sarah Johnson",
+    date: "12 septembre 2023",
+    description: "Apprendre à développer une vie de prière profonde qui nous connecte à Dieu et change notre perspective.",
+    imageUrl: "https://images.unsplash.com/photo-1501785888041-af3ef285b470",
+    audioUrl: "/assets/audio/sermon7.mp3",
+    duration: "36:48",
+    scripture: "Philippiens 4:6-7",
+    topic: "Prière"
+  },
+  {
+    id: 8,
+    title: "Aimer son prochain",
+    speaker: "Pasteur David Lee",
+    date: "5 septembre 2023",
+    description: "Des moyens concrets de manifester l'amour du Christ à ceux qui nous entourent, dans notre communauté et au-delà.",
+    imageUrl: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1",
+    audioUrl: "/assets/audio/sermon8.mp3",
+    duration: "41:15",
+    scripture: "Luc 10:25-37",
+    topic: "Amour"
+  },
+  {
+    id: 9,
+    title: "Renouveler son intelligence",
+    speaker: "Pasteur Rachel Martinez",
+    date: "29 août 2023",
+    description: "Comment l'Écriture transforme notre façon de penser et nous aide à développer une perspective centrée sur Christ.",
+    imageUrl: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05",
+    audioUrl: "/assets/audio/sermon9.mp3",
+    duration: "38:50",
+    scripture: "Romains 12:1-2",
+    topic: "Croissance"
+  },
+  {
+    id: 10,
+    title: "La gestion des dons de Dieu",
+    speaker: "Pasteur Sarah Johnson",
+    date: "22 août 2023",
+    description: "Comprendre comment gérer fidèlement le temps, les talents et les ressources que Dieu nous confie.",
+    imageUrl: "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+    audioUrl: "/assets/audio/sermon10.mp3",
+    duration: "43:27",
+    scripture: "Matthieu 25:14-30",
+    topic: "Gestion"
+  },
+  {
+    id: 11,
+    title: "Espérer en Christ",
+    speaker: "Pasteur David Lee",
+    date: "15 août 2023",
+    description: "Trouver une espérance durable grâce à notre relation avec Jésus, même dans les circonstances difficiles.",
+    imageUrl: "https://images.unsplash.com/photo-1470770841072-f978cf4d019e",
+    audioUrl: "/assets/audio/sermon11.mp3",
+    duration: "39:56",
+    scripture: "1 Pierre 1:3-9",
+    topic: "Espérance"
+  },
+  {
+    id: 12,
+    title: "La famille selon Dieu",
+    speaker: "Pasteur Sarah Johnson",
+    date: "8 août 2023",
+    description: "Principes bibliques pour bâtir des relations familiales solides et saines qui honorent Dieu.",
+    imageUrl: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1",
+    audioUrl: "/assets/audio/sermon12.mp3",
+    duration: "44:08",
+    scripture: "Éphésiens 5:21-6:4",
+    topic: "Famille"
+  }
+];
